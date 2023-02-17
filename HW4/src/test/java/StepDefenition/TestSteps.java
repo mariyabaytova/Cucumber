@@ -12,13 +12,13 @@ public class TestSteps {
     @Когда("^Пользователь вводит a$")
     public static int пользователь_вводит_a(){
         Scanner a = new Scanner(System.in);
-        return 0;
+        return 2;
     }
 
     @Когда("^Пользователь вводит b$")
     public static int пользователь_вводит_b(){
         Scanner b = new Scanner(System.in);
-        return 0;
+        return 3;
     }
     @Тогда("^Получить сумму$")
     public static int получить_сумму() {
